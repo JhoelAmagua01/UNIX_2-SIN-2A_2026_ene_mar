@@ -1,0 +1,16 @@
+LICENSE
+README.md
+archivo raro.txt
+backup.tar
+copia.txt
+ejemplo_debug.py
+mi_primer_script.sh
+padre
+papa
+salida.txt
+script s3
+semana3
+semana4
+semana7
+test.txt
+z

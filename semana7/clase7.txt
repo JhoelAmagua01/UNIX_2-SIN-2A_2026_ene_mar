@@ -1,0 +1,68 @@
+Script started on 2026-02-17 01:04:35+00:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="140" LINES="18"]
+[?2004h[0;32m@JhoelAmagua01 [0m➜ [1;34m/workspaces/UNIX_2-SIN-2A_2026_ene_mar/semana7 [0;36m([1;31msemana3[0;36m) [0m$ echo ([K"dato importante! [K[K" ê[K> original.txt
+[?2004l[?2004h[0;32m@JhoelAmagua01 [0m➜ [1;34m/workspaces/UNIX_2-SIN-2A_2026_ene_mar/semana7 [0;36m([1;31msemana3[0;36m) [0m$ ls
+[?2004lclase7.txt  original.txt
+[?2004h[0;32m@JhoelAmagua01 [0m➜ [1;34m/workspaces/UNIX_2-SIN-2A_2026_ene_mar/semana7 [0;36m([1;31msemana3[0;36m) [0m$ cat orgigi[K[K[K[Kiginal.txt
+[?2004ldato importante
+[?2004h[0;32m@JhoelAmagua01 [0m➜ [1;34m/workspaces/UNIX_2-SIN-2A_2026_ene_mar/semana7 [0;36m([1;31msemana3[0;36m) [0m$ ls -li original.txt
+[?2004l1573039 -rw-rw-rw- 1 codespace codespace 16 Feb 17 01:06 original.txt
+[?2004h[0;32m@JhoelAmagua01 [0m➜ [1;34m/workspaces/UNIX_2-SIN-2A_2026_ene_mar/semana7 [0;36m([1;31msemana3[0;36m) [0m$ ln org[Kiginal .[K[K.txt copia.txt
+[?2004l[?2004h[0;32m@JhoelAmagua01 [0m➜ [1;34m/workspaces/UNIX_2-SIN-2A_2026_ene_mar/semana7 [0;36m([1;31msemana3[0;36m) [0m$ ls
+[?2004lclase7.txt  copia.txt  original.txt
+[?2004h[0;32m@JhoelAmagua01 [0m➜ [1;34m/workspaces/UNIX_2-SIN-2A_2026_ene_mar/semana7 [0;36m([1;31msemana3[0;36m) [0m$ lsn original.txt copia.txt[C[C[1P[1@s[C[1@ [1@-[1@l[1@i
+[?2004l1573039 -rw-rw-rw- 2 codespace codespace 16 Feb 17 01:06 copia.txt
+1573039 -rw-rw-rw- 2 codespace codespace 16 Feb 17 01:06 original.txt
+[?2004h[0;32m@JhoelAmagua01 [0m➜ [1;34m/workspaces/UNIX_2-SIN-2A_2026_ene_mar/semana7 [0;36m([1;31msemana3[0;36m) [0m$ rm original.txt
+[?2004l[?2004h[0;32m@JhoelAmagua01 [0m➜ [1;34m/workspaces/UNIX_2-SIN-2A_2026_ene_mar/semana7 [0;36m([1;31msemana3[0;36m) [0m$ rm original.txtls -li original.txt copia.txt[C}copia.txt[1Pcopia.txt[1Pcopia.txt[1Pcopia.txt[1Pcopia.txt[1Pcopia.txt[1Pcopia.txt[1Pcopia.txt[1Pcopia.txt[1Pcopia.txt[1Pcopia.txt[1Pcopia.txt[1Pcopia.txt[1Pcopia.txt[1Pcopia.txt
+[?2004l1573039 -rw-rw-rw- 1 codespace codespace 16 Feb 17 01:06 copia.txt
+[?2004h[0;32m@JhoelAmagua01 [0m➜ [1;34m/workspaces/UNIX_2-SIN-2A_2026_ene_mar/semana7 [0;36m([1;31msemana3[0;36m) [0m$ cat cpia.txtopia.txt
+[?2004ldato importante
+[?2004h[0;32m@JhoelAmagua01 [0m➜ [1;34m/workspaces/UNIX_2-SIN-2A_2026_ene_mar/semana7 [0;36m([1;31msemana3[0;36m) [0m$ echo 3[K#[K"secreto" > secreto.txt
+[?2004l[?2004h[0;32m@JhoelAmagua01 [0m➜ [1;34m/workspaces/UNIX_2-SIN-2A_2026_ene_mar/semana7 [0;36m([1;31msemana3[0;36m) [0m$ ls
+[?2004lclase7.txt  copia.txt  secreto.txt
+[?2004h[0;32m@JhoelAmagua01 [0m➜ [1;34m/workspaces/UNIX_2-SIN-2A_2026_ene_mar/semana7 [0;36m([1;31msemana3[0;36m) [0m$ ca [Kt secreto.txt
+[?2004lsecreto
+[?2004h[0;32m@JhoelAmagua01 [0m➜ [1;34m/workspaces/UNIX_2-SIN-2A_2026_ene_mar/semana7 [0;36m([1;31msemana3[0;36m) [0m$ ln -s secreto.txt acceso.txt
+[?2004l[?2004h[0;32m@JhoelAmagua01 [0m➜ [1;34m/workspaces/UNIX_2-SIN-2A_2026_ene_mar/semana7 [0;36m([1;31msemana3[0;36m) [0m$ ls
+[?2004l[0m[01;36macceso.txt[0m  clase7.txt  copia.txt  secreto.txt
+[?2004h[0;32m@JhoelAmagua01 [0m➜ [1;34m/workspaces/UNIX_2-SIN-2A_2026_ene_mar/semana7 [0;36m([1;31msemana3[0;36m) [0m$ ls -lk[Ki secreto.txt acceso.txt
+[?2004l1573041 lrwxrwxrwx 1 codespace codespace 11 Feb 17 01:10 [0m[01;36macceso.txt[0m -> secreto.txt
+1573040 -rw-rw-rw- 1 codespace codespace  8 Feb 17 01:09 secreto.txt
+[?2004h[0;32m@JhoelAmagua01 [0m➜ [1;34m/workspaces/UNIX_2-SIN-2A_2026_ene_mar/semana7 [0;36m([1;31msemana3[0;36m) [0m$ rm secreto.txt
+[?2004l[?2004h[0;32m@JhoelAmagua01 [0m➜ [1;34m/workspaces/UNIX_2-SIN-2A_2026_ene_mar/semana7 [0;36m([1;31msemana3[0;36m) [0m$ cat accso[K[Keso.txt
+[?2004lcat: acceso.txt: No such file or directory
+[?2004h[0;32m@JhoelAmagua01 [1;31m➜ [1;34m/workspaces/UNIX_2-SIN-2A_2026_ene_mar/semana7 [0;36m([1;31msemana3[0;36m) [0m$ tpuch [K[K[K[K[Koun[Kch test testeando testeo
+[?2004l[?2004h[0;32m@JhoelAmagua01 [0m➜ [1;34m/workspaces/UNIX_2-SIN-2A_2026_ene_mar/semana7 [0;36m([1;31msemana3[0;36m) [0m$ ls
+[?2004l[0m[40;31;01macceso.txt[0m  clase7.txt  copia.txt  test  testeando  testeo
+[?2004h[0;32m@JhoelAmagua01 [0m➜ [1;34m/workspaces/UNIX_2-SIN-2A_2026_ene_mar/semana7 [0;36m([1;31msemana3[0;36m) [0m$ ls test*
+[?2004ltest  testeando  testeo
+[?2004h[0;32m@JhoelAmagua01 [0m➜ [1;34m/workspaces/UNIX_2-SIN-2A_2026_ene_mar/semana7 [0;36m([1;31msemana3[0;36m) [0m$ touch test123 test+#
+[?2004l[?2004h[0;32m@JhoelAmagua01 [0m➜ [1;34m/workspaces/UNIX_2-SIN-2A_2026_ene_mar/semana7 [0;36m([1;31msemana3[0;36m) [0m$ touch test123 test+#[12Pls test*
+[?2004ltest  [0m[00;90mtest+#[0m  test123  testeando  testeo
+[?2004h[0;32m@JhoelAmagua01 [0m➜ [1;34m/workspaces/UNIX_2-SIN-2A_2026_ene_mar/semana7 [0;36m([1;31msemana3[0;36m) [0m$ ls test*[K[K[K[K[K[K[K[Ktocuh[K[K[Kuch final1 final2 i[Kfinal11 final [K22
+[?2004l[?2004h[0;32m@JhoelAmagua01 [0m➜ [1;34m/workspaces/UNIX_2-SIN-2A_2026_ene_mar/semana7 [0;36m([1;31msemana3[0;36m) [0m$ ls
+[?2004l[0m[40;31;01macceso.txt[0m  clase7.txt  copia.txt  final1  final11  final2  final22  test  [00;90mtest+#[0m  test123  testeando  testeo
+[?2004h[0;32m@JhoelAmagua01 [0m➜ [1;34m/workspaces/UNIX_2-SIN-2A_2026_ene_mar/semana7 [0;36m([1;31msemana3[0;36m) [0m$ ls final)[K=[K?2
+[?2004lfinal22
+[?2004h[0;32m@JhoelAmagua01 [0m➜ [1;34m/workspaces/UNIX_2-SIN-2A_2026_ene_mar/semana7 [0;36m([1;31msemana3[0;36m) [0m$ ls final?2[K2?
+[?2004lfinal22
+[?2004h[0;32m@JhoelAmagua01 [0m➜ [1;34m/workspaces/UNIX_2-SIN-2A_2026_ene_mar/semana7 [0;36m([1;31msemana3[0;36m) [0m$ touch final222 final [K2222
+[?2004l[?2004h[0;32m@JhoelAmagua01 [0m➜ [1;34m/workspaces/UNIX_2-SIN-2A_2026_ene_mar/semana7 [0;36m([1;31msemana3[0;36m) [0m$ ls
+[?2004l[0m[40;31;01macceso.txt[0m  clase7.txt  copia.txt  final1  final11  final2  final22  final222  final2222  test  [00;90mtest+#[0m  test123  testeando  testeo
+[?2004h[0;32m@JhoelAmagua01 [0m➜ [1;34m/workspaces/UNIX_2-SIN-2A_2026_ene_mar/semana7 [0;36m([1;31msemana3[0;36m) [0m$ lstouch final222 final2222[14Pls final2?2
+[?2004lfinal222
+[?2004h[0;32m@JhoelAmagua01 [0m➜ [1;34m/workspaces/UNIX_2-SIN-2A_2026_ene_mar/semana7 [0;36m([1;31msemana3[0;36m) [0m$ ls final2?2[K??
+[?2004lfinal2222
+[?2004h[0;32m@JhoelAmagua01 [0m➜ [1;34m/workspaces/UNIX_2-SIN-2A_2026_ene_mar/semana7 [0;36m([1;31msemana3[0;36m) [0m$ ls [a-c]*
+[?2004l[0m[40;31;01macceso.txt[0m  clase7.txt  copia.txt
+[?2004h[0;32m@JhoelAmagua01 [0m➜ [1;34m/workspaces/UNIX_2-SIN-2A_2026_ene_mar/semana7 [0;36m([1;31msemana3[0;36m) [0m$ grep !![K
+[?2004l
+^C
+[?2004h[0;32m@JhoelAmagua01 [1;31m➜ [1;34m/workspaces/UNIX_2-SIN-2A_2026_ene_mar/semana7 [0;36m([1;31msemana3[0;36m) [0m$ cd /var/log
+[?2004l[?2004h[0;32m@JhoelAmagua01 [0m➜ [1;34m/var/log [0m$ ls
+[?2004l[0m[01;36mREADME[0m  alternatives.log  [01;34mapt[0m  bootstrap.log  btmp  dpkg.log  faillog  fontconfig.log  [01;34mjournal[0m  lastlog  [01;34mprivate[0m  wtmp
+[?2004h[0;32m@JhoelAmagua01 [0m➜ [1;34m/var/log [0m$ cd /workspaces/
+[?2004l[?2004h[0;32m@JhoelAmagua01 [0m➜ [1;34m/workspaces [0m$ cd UNIX_2-SIN-2A_2026_ene_mar/
+[?2004l[?2004h[0;32m@JhoelAmagua01 [0m➜ [1;34m/workspaces/UNIX_2-SIN-2A_2026_ene_mar [0;36m([1;31msemana3[0;36m) [0m$ touch "archo[Kivo raro.txt"
+[?2004l[?2004h[0;32m@JhoelAmagua01 [0m➜ [1;34m/workspaces/UNIX_2-SIN-2A_2026_ene_mar [0;36m([1;31msemana3[0;36m) [0m$ ls
+[?2004l LICENSE    'archiv
